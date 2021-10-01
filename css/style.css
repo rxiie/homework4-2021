@@ -55,7 +55,8 @@ p{
 
 a{
   color: #B21F50;
-  text-decoration: wavy;
+  text-decoration-style: wavy;
+  text-decoration-line: underline;
   font-size: 16px;
   
 }
@@ -138,9 +139,11 @@ tbody tr:hover {background-color: rgba(126, 8, 37, 0.25);}
 
 footer{
   width:100%;
-  margin: auto;
   min-height: 75px;
   background:#000000;
   text-align:center;
   color: #FFFFFF;
+  position: sticky;
+  bottom:0;
+  
 }
